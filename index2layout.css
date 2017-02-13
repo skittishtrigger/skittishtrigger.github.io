@@ -1,0 +1,74 @@
+*{
+padding : 5px;
+margin : 5px;
+border : 2px;
+}
+body{
+background-image : url(' bi-background-frame.png ');
+
+background-attachment : fixed;
+background-size : 100% auto;
+}
+
+
+
+
+.pageHeader{
+background-color : rgba(0, 0, 180, 0.5);
+float : left;
+clear : none;
+height : 200px;
+width : 900px;
+  display : inline;
+}
+
+.logo{
+float : right;
+clear : left;
+height : 200px;
+width : 400px;
+display : inline-block;
+position : relative;
+
+justify-content : right;
+z-index : 2;
+}
+
+
+.navbar{
+background-color : rgba(80, 0, 180, 0.7);
+float : left;
+clear : none;
+height : 60px;
+width : 900px;
+  display : blockl
+  z-index : -1;
+}
+.pageLeftMenu{
+background-color : rgba(0, 0, 180, 0.5);
+float : left;
+clear : left;
+height : 600px;
+width : 140px;
+position : static;
+margin-top : 5px;
+  flex : 1;
+}
+.pagecontent{
+background-color : rgba(80, 0, 180, 0.7);
+height : 600px;
+width : 740px;
+  clear : top;
+position : static;
+margin-left : 5px;
+margin-top : 5px;
+  display : inline-block;
+}
+.pageFooter{
+background-color : rgba(0, 0, 180, 0.5);
+float : left;
+clear : none;
+height : 100px;
+width : 900px;
+clear : left;
+}
