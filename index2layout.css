@@ -1,12 +1,12 @@
 body {
   background-attachment: fixed;
   background-image: url('http://i.imgur.com/lzxLAvh.jpg');
-  background-size: 100% auto;
+  background-size: 90% auto;
   filter: grayscale(60%);
 }
 
 main {
-  width: 910px;
+  width: 9200px;
   margin: 0 auto;
   position: relative;
 }
