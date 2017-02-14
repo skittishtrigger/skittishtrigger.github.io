@@ -2,11 +2,11 @@ body {
   background-attachment: fixed;
   background-image: url('http://i.imgur.com/lzxLAvh.jpg');
   background-size: 90% auto;
-  filter: grayscale(60%);
+  filter: grayscale(40%);
 }
 
 main {
-  width: 920px;
+  width: 940px;
   margin: 0 auto;
   position: relative;
 }
@@ -74,7 +74,7 @@ nav {
   margin-top: 5px;
   display: inline-block;
   text-align: center;
-  padding: 10px 5px;
+  /* padding: 10px 5px; */
 }
 
 footer {
