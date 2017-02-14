@@ -6,7 +6,7 @@ body {
 }
 
 main {
-  width: 9200px;
+  width: 920px;
   margin: 0 auto;
   position: relative;
 }
@@ -52,7 +52,7 @@ nav {
   float: left;
   clear: left;
   height: 600px;
-  width: 140px;
+  width: 1300px;
   position: relative;
   margin-top: 5px;
   text-align: center;
