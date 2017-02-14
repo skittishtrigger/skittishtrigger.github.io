@@ -56,6 +56,10 @@ nav {
   flex: 1;
 }
 
+#links{
+ text-align: left; 
+}
+
 .pagecontent {
   background-color: rgb(80, 0, 180);
   background-color: rgba(80, 0, 180, 0.7);
