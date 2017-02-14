@@ -37,7 +37,7 @@ nav {
   float: left;
   clear: left;
   height: 60px;
-  width: 900px;
+  width: 910px;
   display: block;
   z-index: -1;
   margin-top: 5px;
@@ -67,7 +67,7 @@ nav {
   background-color: rgb(80, 0, 180);
   background-color: rgba(80, 0, 180, 0.7);
   height: 600px;
-  width: 755px;
+  width: 775px;
   clear: both;
   position: static;
   margin-left: 5px;
