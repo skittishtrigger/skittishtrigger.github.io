@@ -1,8 +1,13 @@
 body {
   background-attachment: fixed;
-  background-image: url('http://i.imgur.com/lzxLAvh.jpg');
+  /* background-image: url('http://i.imgur.com/lzxLAvh.jpg');*/
   background-size: 100% auto;
   filter: grayscale(40%);
+  background: #4d0000; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left,rgba(77,0,0,0),rgba(77,0,0,8)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(right,rgba(77,0,0,0),rgba(77,0,0,8)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(right,rgba(77,0,0,0),rgba(77,0,0,8)); /*Fx 3.6-15*/
+  background: linear-gradient(to right, rgba(77,0,0,0), rgba(77,0,0,8)); /*Standard*/
 }
 
 main {
@@ -13,6 +18,7 @@ main {
 
 header {
   background-color: rgba(0, 0, 180, 0.5);
+  border-top-right-radius: 50px;
   float: left;
   clear: none;
   height: 200px;
@@ -20,6 +26,7 @@ header {
   display: block;
   position: relative;
   margin-bottom: 5px;
+  top: 10%;
   
 }
 
@@ -33,16 +40,46 @@ header {
 
 nav {
   background-color: rgb(80, 0, 180);
-  background-color: rgba(80, 0, 180, 0.7);
+  background-color: rgba(80, 0, 180, 0.9);
   float: left;
   clear: left;
   height: 60px;
   width: 900px;
   display: block;
-  z-index: -1;
-  margin-top: 5px;
+  z-index: 0;
+  /*margin-top: 5px;*/
   margin-bottom: 5px;
-  
+  position: fixed;
+    top: 10rem;
+}
+
+.topmenu{
+	font-size: 2rem;
+}
+.topmenu ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	
+	
+}
+.topmenu li{
+  float: left;
+  border-right: 1px solid #bbb;
+}
+.topmenu li:last-child{
+	border-right: none;
+}
+.topmenu li a{
+  display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.topmenu li a:hover {
+    background-color: #555;
+    color: white;
 }
 
 .pageLeftMenu {
@@ -53,7 +90,7 @@ nav {
   height: 600px;
   width: 130px;
   position: relative;
-  margin-top: 5px;
+  margin-top: 4rem;
   text-align: center;
   flex: 1;
   /* padding: 5px 5px;  */
@@ -71,9 +108,10 @@ nav {
   clear: both;
   position: static;
   margin-left: 5px;
-  margin-top: 5px;
+  margin-top: 4rem;
   display: inline-block;
   text-align: center;
+ 
   /* padding: 10px 5px; */
 }
 
