@@ -9,7 +9,7 @@
 //       x.style.display = 'none';
 //    }
 //} ////
-window.onload = adjuststyle(); //Calls function on load?
+window.onload = adjuststyle(); //Calls function on load? force push
 
 function adjustStyle(width) {
   width = parseInt(width);
