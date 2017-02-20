@@ -16,11 +16,10 @@ function adjustStyle(width) {
     $("#size-stylesheet").attr("href", "css/small.css");
   } else if (width < 480) {
     $("#size-stylesheet").attr("href", "css/medium.css");
-  } else if (width < 720){
-     $("#size-stylesheet").attr("href", "css/large.css"); 
-  }
-  else{
-    $("#size-stylesheet").attr("href", "css/default.css")
+  } else if (width < 720) {
+    $("#size-stylesheet").attr("href", "css/large.css");
+  } else {
+    $("#size-stylesheet").attr("href", "css/default.css");
   }
 }
 
