@@ -9,7 +9,7 @@
 //       x.style.display = 'none';
 //    }
 //} ////
-//window.onload(adjuststyle(width)); //Calls function on load? force push
+window.onload(adjustStyle(width)); //Calls function on load? force push
 
 function adjustStyle(width) {
   width = parseInt(width);
@@ -24,7 +24,7 @@ function adjustStyle(width) {
   }
 }
 
-$(adjuststyle(width)) {
+$adjuststyle(width)) {
   adjustStyle($(this).width());
   $(window).resize(adjustStyle(width)) {
     adjustStyle($(this).width());
