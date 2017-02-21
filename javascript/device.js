@@ -24,9 +24,9 @@ function adjustStyle(width) {
   }
 }
 
-$(adjuststyle() {
+$(adjuststyle()) {
   adjustStyle($(this).width());
-  $(window).resize(function() {
+  $(window).resize(function()) {
     adjustStyle($(this).width());
-  });
-});
+  }
+};
