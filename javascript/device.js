@@ -1,5 +1,6 @@
 
 window.addEventListener("load", adjustStyle());
+window.addEventListener("resize", adjustStyle());
 
 
 function adjustStyle() {
