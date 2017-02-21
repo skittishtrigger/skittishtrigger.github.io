@@ -26,4 +26,3 @@ function adjustStyle() {
 
 }
 
-//window.alert(adjustStyle()); //testing to alert in window. Should Confirm first buttons values.
