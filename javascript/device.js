@@ -24,9 +24,4 @@ function adjustStyle(width) {
   }
 }
 
-$adjuststyle(width)) {
-  adjustStyle($(this).width());
-  $(window).resize(adjustStyle(width)) {
-    adjustStyle($(this).width());
-  }
-};
+window.resize(adjustStyle(width));
