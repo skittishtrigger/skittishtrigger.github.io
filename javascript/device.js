@@ -1,27 +1,28 @@
-//<button onclick="myFunction()">Try it</button>
-//
-//var clickLink =
-//function myFunction() {
-//    var x = document.getElementById('myDIV');
-//    if (x.style.display === 'none') {
-//       x.style.display = 'block';
-//  } else {
-//       x.style.display = 'none';
-//    }
-//} ////
-window.onload(adjustStyle(width)); //Calls function on load? force push
 
-function adjustStyle(width) {
-  width = parseInt(width);
-  if (width < 360) {
-    $("#size-stylesheet").attr("href", "css/small.css");
-  } else if (width < 480) {
-    $("#size-stylesheet").attr("href", "css/medium.css");
-  } else if (width < 720) {
-    $("#size-stylesheet").attr("href", "css/large.css");
-  } else {
-    $("#size-stylesheet").attr("href", "css/default.css");
+window.addEventListener("load", adjustStyle());
+
+
+function adjustStyle() {
+  var w = screen.width; { // sets variable inside()?
+    confirm("Your screen is" + w + "px wide.");
+    w = parseInt(w); //<---Needed?
+    if (w === undefined) { //Default variable just in case?
+      w = 900;
+      confirm("Your screen does not respond with its size");
+    } else if (w < 360) {
+      $("#size-stylesheet").attr("href", "css/small.css");
+    } else if (w < 480) {
+      $("#size-stylesheet").attr("href", "css/medium.css");
+    } else if (w < 720) {
+      $("#size-stylesheet").attr("href", "css/large.css");
+    } else if (w > 721) {
+      $("#size-stylesheet").attr("href", "css/default.css");
+      confirm("WoW, that " + w + "px screen is huge");
+    } else {
+      $("#size-stylesheet").attr("href", "css/default.css");
+    }
+    // if/else if statements  ^^^^  "linking" proper css based on screen.width
   }
+
 }
 
-window.resize(adjustStyle(width));
