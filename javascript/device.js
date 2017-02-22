@@ -10,7 +10,8 @@ window.addEventListener("resize", adjustStyle()); // This
 
 function adjustStyle() {
   var w = window.screen.availWidth; { // sets variable inside()?
-    w = parseInt(w); //<---Needed?
+    w = parseInt(w);
+    confirm(w + "px's");//<---Needed?
     if (w === undefined) { //Default variable just in case?
       w = 900;
       confirm("Your screen does not respond with its size");
