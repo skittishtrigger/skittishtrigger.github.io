@@ -16,9 +16,9 @@ function adjustStyle() {
       w = 900;
       confirm("Your screen does not respond with its size");
     } else if (w < 360) {
-      document.getElementById("size-stylesheet"), element.setAttribute("href", "css/small");
+      document.getElementById("size-stylesheet")element.setAttribute("href", "css/small");
     } else if (w < 480) {
-       document.getElementById("size-stylesheet"), node.setAttribute("href", "css/medium.css");
+       document.getElementById("size-stylesheet")node.setAttribute("href", "css/medium.css");
     } else if (w < 720) {
       document.getElementById("size-stylesheet").attr("href", "css/large.css");
     } else if (w > 721) {
