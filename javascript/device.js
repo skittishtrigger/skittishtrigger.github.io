@@ -16,7 +16,8 @@ function adjustStyle() {
       w = 900;
       confirm("Your screen does not respond with its size");
     } else if (w < 360) {
-      document.getElementById("size-stylesheet").href="css/small.css";
+      document.getElementById("size-stylesheet"); //.href="css/small.css"
+      element.setAttribute("href", "css/small");
     } else if (w < 480) {
        document.getElementById("size-stylesheet").attr("href", "css/medium.css");
     } else if (w < 720) {
