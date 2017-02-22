@@ -9,7 +9,7 @@ window.addEventListener("resize", adjustStyle()); // This
 
 
 function adjustStyle() {
-  var w = window.innerwidth; { // sets variable inside()?
+  var w = window.availWidth; { // sets variable inside()?
     w = parseInt(w); //<---Needed?
     if (w === undefined) { //Default variable just in case?
       w = 900;
