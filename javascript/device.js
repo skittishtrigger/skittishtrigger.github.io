@@ -25,7 +25,7 @@ function adjustStyle() {
        $document.getElementById("#size-stylesheet").attr("href", "css/default.css");
       confirm("WoW, that " + w + "px screen is huge");
     } else {
-     $document.getElementById("#size-stylesheet".attr("href", "css/default.css");
+     $document.getElementById("#size-stylesheet").attr("href", "css/default.css");
     }
     // if/else if statements  ^^^^  "linking" proper css based on screen.width
   }
