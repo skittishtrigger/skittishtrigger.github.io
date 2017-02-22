@@ -20,7 +20,7 @@ function adjustStyle() {
     } else if (w < 480) {
        $document.getElementById("#size-stylesheet").attr("href", "css/medium.css");
     } else if (w < 720) {
-      $ document.getElementById("#size-stylesheet").attr("href", "css/large.css");
+      $document.getElementById("#size-stylesheet").attr("href", "css/large.css");
     } else if (w > 721) {
        $document.getElementById("#size-stylesheet").attr("href", "css/default.css");
       confirm("WoW, that " + w + "px screen is huge");
