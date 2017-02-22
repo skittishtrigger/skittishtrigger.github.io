@@ -10,7 +10,6 @@ window.addEventListener("resize", adjustStyle()); // This
 
 function adjustStyle() {
   var w = screen.width; { // sets variable inside()?
-    confirm("Your screen is" + w + "px wide.");
     w = parseInt(w); //<---Needed?
     if (w === undefined) { //Default variable just in case?
       w = 900;
@@ -23,7 +22,6 @@ function adjustStyle() {
       document.getElementById("size-stylesheet").setAttribute("href", "css/large.css");
     } else if (w > 721) {
        document.getElementById("size-stylesheet").setAttribute("href", "css/default.css");
-      confirm("WoW, that " + w + "px screen is huge");
     } else {
      document.getElementById("#size-stylesheet").setAttribute("href", "css/default.css");
     }
