@@ -5,7 +5,7 @@
 
 window.addEventListener("load", adjustStyle());
 window.addEventListener("resize", adjustStyle()); // This
-window.addEventListener("resize", function(){adjustStyle();}); //or this?
+// window.addEventListener("resize", function(){adjustStyle();}); //or this?
 
 
 function adjustStyle() {
