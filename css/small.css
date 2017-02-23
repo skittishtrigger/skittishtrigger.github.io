@@ -60,6 +60,7 @@ nav {
   position: fixed;
   top: 1rem;
   flex: auto;
+  filter: brightness(120%);
 }
 
 .topmenu {
