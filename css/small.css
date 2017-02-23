@@ -224,6 +224,7 @@ header {
   min-width: 90%;
   display: block;
   overflow: hidden;
+  position: relative;
 }
 
 .defaultcontent {
