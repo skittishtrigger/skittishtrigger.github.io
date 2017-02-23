@@ -48,8 +48,10 @@
     </div>
     <div class="pagecontent">
       <div class="contentborder">
+      <div class="defaultcontent" id="defaultcontent">
         <div class="content">
-          <div class="defaultcontent" id="defaultcontent">FUCKERMONKEY</div>
+          
+            </div>
             <div class="html">html</div>
             <div class="css">css</div>
             <div class="jscript">jscript</div>

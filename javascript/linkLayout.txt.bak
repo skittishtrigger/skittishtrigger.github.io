@@ -1,0 +1,15 @@
+
+document.addEventListener('click', function() {
+function contentLinking(){
+var cl = 
+}
+load html
+	load default.html inside division
+	load default style.css
+	load file.js
+	listen for all <a clicks>
+	on click:
+		hide current/default file.html iside devision (preload files? hide/unhide?)
+		determin <a> 'a id='
+		use a/id to "insert"/display proper file into <contentinner>(use division hide/show?)
+end
