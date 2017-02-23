@@ -220,6 +220,10 @@ header {
   background: orange;
   border-radius: 1rem;
   margin: auto;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
   min-height: auto;
   min-width: 90%;
   display: block;
