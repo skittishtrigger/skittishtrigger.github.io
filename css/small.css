@@ -219,14 +219,11 @@ header {
 .content {
   background: orange;
   border-radius: 1rem;
-  margin: .8vw .8vw .8vw .8vw;
-  min-height: 98%;
+  margin: 4rem;
+  min-height: auto;
   min-width: 90%;
   display: block;
   overflow: hidden;
-  
-  
- 
 }
 
 .defaultcontent {
