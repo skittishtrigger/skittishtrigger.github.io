@@ -224,13 +224,11 @@ header {
   display: block;
   overflow: hidden;
   
-  
  
 }
 
 .defaultcontent {
   background: transparent;
-  border: 1px solid #000;
   border-radius: 1rem;
   padding: 1vw 1vw;
   min-height: 98%;
