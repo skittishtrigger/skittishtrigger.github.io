@@ -219,7 +219,7 @@ header {
 .content {
   background: orange;
   border-radius: 1rem;
-  margin: 3rem 3rem;
+  margin: auto;
   min-height: auto;
   min-width: 90%;
   display: block;
@@ -235,7 +235,7 @@ header {
   padding: 1vw 1vw;
   min-height: 98%;
   max-width: 98%;
-  margin: 2vh 2vw 2vh 2vw;
+  margin:auto;
   position: relative;
   display: block;
   clear: both;
