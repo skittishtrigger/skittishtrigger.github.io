@@ -52,7 +52,10 @@
       <div class="contentborder">
         <div class="content">
           <div class="contentinner" id="text">
-            <div class="default">def</div>
+
+            <div id="text2">
+
+            </div>
             <div class="html">html</div>
             <div class="css">css</div>
             <div class="jscript">jscript</div>
@@ -69,7 +72,15 @@
     </footer>
   </main>
 
-<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> Removed till needed-->
-<!--<script type="text/javascript" src="javascript/device.js"></script> old resolution management script-->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script>
+    $(function() {
+      $("#defaultcontent").load("default.html");
+    });
+
+  </script>
+  <!--Removed till needed-->
+  <!--<script type="text/javascript" src="javascript/device.js"></script> old resolution management script-->
 </body>
-</html>
+
+<!--</html>-->
