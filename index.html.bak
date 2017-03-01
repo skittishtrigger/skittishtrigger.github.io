@@ -48,8 +48,10 @@
     </div>
     <div class="pagecontent">
       <div class="contentborder">
+      <div class="defaultcontent" id="defaultcontent">
         <div class="content">
-          <div class="defaultcontent" id="defaultcontent"></div>
+          
+            </div>
             <div class="html">html</div>
             <div class="css">css</div>
             <div class="jscript">jscript</div>
@@ -71,7 +73,7 @@
 
   <script>
     $(function() {
-      $("#defaultcontent").load("https://raw.githubusercontent.com/skittishtrigger/skittishtrigger.github.io/master/pages/default.html");
+      $("#defaultcontent").load("https://raw.githubusercontent.com/skittishtrigger/skittishtrigger.github.io/master/default.html");
     });
 
   </script>

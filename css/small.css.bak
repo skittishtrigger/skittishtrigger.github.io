@@ -1,0 +1,294 @@
+/*changed body to Bg*/
+
+.Bg {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -2;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-image: url('http://i.imgur.com/lzxLAvh.jpg');*/
+  /*background-size: auto auto; /*was 100vh auto*/
+  filter: grayscale(40%);
+  background: #4d0000;
+  /* For browsers that do not support gradients */
+  background: -webkit-gradient(left, rgb(77, 0, 0), rgb(77, 0, 0));
+  background: -webkit-gradient(right, rgb(77, 0, 8), rgb(77, 0, 8));
+  background: -o-linear-gradient(left, rgb(77, 0, 0), rgb(77, 0, 0));
+  background: -o-linear-gradient(right, rgb(77, 0, 8), rgb(77, 0, 0));
+  background: -webkit-linear-gradient(left, rgba(77, 0, 0, 0), rgba(77, 0, 0, 8));
+  /*Safari 5.1-6*/
+  background: -o-linear-gradient(right, rgba(77, 0, 0, 0), rgba(77, 0, 0, 8));
+  /*Opera 11.1-12*/
+  background: -moz-linear-gradient(right, rgba(77, 0, 0, 0), rgba(77, 0, 0, 8));
+  /*Fx 3.6-15*/
+  background: linear-gradient(to right, rgba(77, 0, 0, 0), rgba(77, 0, 0, 8));
+  /*Standard*/
+}
+
+main {
+  /* max-width: 95vw; */
+  max-width: 90%;
+  margin: auto;
+  /*position: relative; */
+  -webkit-flex: auto;
+  /* Safari 6.1+ */
+  -ms-flex: auto;
+  /* IE 10 */
+  display: flex;
+  flex-direction: column;
+  flex-basis: auto;
+  /*display: block; removed*/
+}
+
+nav {
+  background-color: rgb(80, 0, 180);
+  background-color: rgba(80, 0, 180, 0.9);
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  max-height: 8vh;
+  min-height: 6vh;
+  max-width: 90%;
+  min-width: 89%;
+  display: block;
+  z-index: 2;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  position: fixed;
+  top: 1rem;
+  flex: auto;
+}
+
+.topmenu {
+  font-size: 2.7vh;
+  text-align: center;
+}
+
+.topmenu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.topmenu li {
+  border-right: none/*1px solid #bbb*/
+  ;
+    display: inline-block;
+}
+
+.topmenu li:last-child {
+  border-right: none;
+}
+
+.topmenu li a {
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.topmenu li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+header {
+  background-color: rgb(0, 0, 180);
+  background-color: rgba(0, 0, 180, 0.5);
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  max-height: 27vh;
+  min-height: 20vh;
+  min-width: 100%;
+  display: block;
+  position: static;
+  margin-bottom: 3vh;
+  margin-top: 14vh;
+  top: 40vh;
+  text-align: center;
+  font-size: 4vh;
+  line-height: .3vh;
+  z-index: 5;
+  order: 1;
+}
+
+.logo {
+  background-image: url("http://i.imgur.com/UDGDhUT.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 10vh;
+  width: 20vh;
+  position: absolute;
+  margin-top: 26vh;
+  margin-left: 55vw;
+  clear: left;
+  z-index: 4;
+  float: right;
+ display: inherit;
+}
+
+.pageLeftMenu {
+  background-color: rgb(0, 0, 180);
+  background-color: rgba(0, 0, 180, 0.5);
+  clear: left;
+  min-height: 8vh;
+  max-width: 100%;
+  min-width: 100%;
+  position: relative;
+  margin-top: .8vh;
+  margin-bottom: 1vh;
+  text-align: left;
+  font-size: 3.5vh;
+  line-height: .8;
+  display: inline-block;
+  text-align: center;
+  order: 3;
+}
+
+.links1 {
+  display: inline-block;
+  font-stretch: condensed;
+  font-size: 2.5vh;
+  max-height: 18vh;
+  min-height: 10vh;
+  min-width: 100%;
+  position: relative;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  z-index: 1;
+}
+
+.links1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  flex: auto;
+}
+
+.links1 li {
+  clear: left;
+  display: inline-block;
+  position: relative;
+}
+
+.links1 li a {
+  display: inline-block;
+  color: #000;
+  padding: .5vh 1vh;
+  text-decoration: none;
+}
+
+.links1 li a:hover {
+  background-color: #555;
+  color: white;
+  text-align: left;
+}
+
+.pagecontent {
+  background-color: rgb(80, 0, 180);
+  background-color: rgba(80, 0, 180, 0.7);
+  border-radius:  1rem;
+  max-height: 100%;
+  min-height: 87.2vh;
+  max-width: 100%;
+  clear: both;
+  position: relative;
+  margin-top: 1vh;
+  display: inline-block;
+  flex: auto;
+  order: 2;
+}
+
+.contentborder {
+  background-color: rgb(250, 250, 250);
+  background-color: rgba(250, 250, 250, 0.7);
+  border-radius: 1rem;
+  min-height: 80vh;
+  max-height: 100%;
+  max-width: 100%;
+  min-width: 50%;
+  margin: 3vh .3vw .3vh .3vw;
+  display: block;
+  z-index: 1;
+}
+
+.content {
+  background: orange;
+  border-radius: 1rem;
+  margin: .8vw .8vw .8vw .8vw;
+  min-height: 98%;
+  min-width: 90%;
+  display: block;
+  overflow: hidden;
+  
+ 
+}
+
+.defaultcontent {
+  background: transparent;
+  border-radius: 1rem;
+  padding: 1vw 1vw;
+  min-height: 98%;
+  max-width: 98%;
+  margin: 2vh 2vw 2vh 2vw;
+  position: relative;
+  display: block;
+  clear: both;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.1;
+  }
+
+.html {
+  height: 100%;
+  width: 100%;
+  margin: 4vh 1.3vw 1.3vh 1.3vw;
+  display: none;
+}
+
+.css {
+  height: 100%;
+  width: 100%;
+  margin: 4vh 1.3vw 1.3vh 1.3vw;
+  display: none;
+}
+
+.jscript {
+  height: 100%;
+  width: 100%;
+  margin: 4vh 1.3vw 1.3vh 1.3vw;
+  display: none;
+}
+
+.gitio {
+  height: 100%;
+  width: 100%;
+  margin: 4vh 1.3vw 1.3vh 1.3vw;
+  display: none;
+}
+
+.future {
+  height: 100%;
+  width: 100%;
+  margin: 4vh 1.3vw 1.3vh 1.3vw;
+  display: none;
+}
+
+footer {
+  background-color: lightblue;
+  background-color: rgba(0, 0, 180, 0.5);
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  max-height: 100%;
+  min-height: 10vh;
+  max-width: 100%;
+  min-width: 100%;
+  margin-top: .3vh;
+  padding-left: .2vw;
+  z-index: 1;
+  text-align: center;
+  order: 4;
+}

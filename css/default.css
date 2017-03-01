@@ -1,0 +1,307 @@
+/*changed body to Bg*/
+
+.Bg {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -2;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-image: url('https://i.imgur.com/lzxLAvh.jpg');*/
+  /*background-size: auto auto; /*was 100vh auto*/
+  filter: grayscale(40%);
+  background: #4d0000;
+  /* For browsers that do not support gradients */
+  background: -webkit-gradient(left, rgb(77, 0, 0), rgb(77, 0, 0));
+  background: -webkit-gradient(right, rgb(77, 0, 8), rgb(77, 0, 8));
+  background: -o-linear-gradient(left, rgb(77, 0, 0), rgb(77, 0, 0));
+  background: -o-linear-gradient(right, rgb(77, 0, 8), rgb(77, 0, 0));
+  background: -webkit-linear-gradient(left, rgba(77, 0, 0, 0), rgba(77, 0, 0, 8));
+  /*Safari 5.1-6*/
+  background: -o-linear-gradient(right, rgba(77, 0, 0, 0), rgba(77, 0, 0, 8));
+  /*Opera 11.1-12*/
+  background: -moz-linear-gradient(right, rgba(77, 0, 0, 0), rgba(77, 0, 0, 8));
+  /*Fx 3.6-15*/
+  background: linear-gradient(to right, rgba(77, 0, 0, 0), rgba(77, 0, 0, 8));
+  /*Standard*/
+}
+
+main {
+  /* max-width: 95vw; */
+  max-width: 90%;
+  margin: auto;
+  /*position: relative; */
+  -webkit-flex: auto;
+  /* Safari 6.1+ */
+  -ms-flex: auto;
+  /* IE 10 */
+  flex: auto;
+  display: block;
+}
+
+nav {
+  background-color: rgb(80, 0, 180);
+  background-color: rgba(80, 0, 180, 0.9);
+  border-bottom-right-radius: 50px;
+  max-height: 18vh;
+  min-height: 14vh;
+  max-width: 100%;
+  min-width: 100%;
+  display: block;
+  z-index: 2;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+  position: fixed;
+  top: 1rem;
+  flex: auto;
+}
+
+.topmenu {
+  font-size: 8vh;
+}
+
+.topmenu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.topmenu li {
+  float: left;
+  border-right: none/*1px solid #bbb*/
+  ;
+}
+
+.topmenu li:last-child {
+  border-right: none;
+}
+
+.topmenu li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.topmenu li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+header {
+  background-color: rgb(0, 0, 180);
+  background-color: rgba(0, 0, 180, 0.5);
+  border-top-right-radius: 50px;
+  float: left;
+  clear: both;
+  max-height: 27vh;
+  min-height: 20vh;
+  max-width: 100%;
+  min-width: 100%;
+  display: block;
+  position: relative;
+  margin-bottom: 9vh;
+  margin-top: 15vh;
+  padding-left: .3vw;
+  top: 8vh;
+  font-size: 7vh;
+  line-height: .3vh;
+}
+
+.logo {
+  background-image: url("https://i.imgur.com/UDGDhUT.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 20vh;
+  width: 50vh;
+  position: relative;
+  margin-top: -26vh;
+  margin-left: 60vw;
+  clear: none;
+  z-index: 4;
+  display: block;
+  flex: auto;
+  float: right;
+}
+
+.pageLeftMenu {
+  background-color: rgb(0, 0, 180);
+  background-color: rgba(0, 0, 180, 0.5);
+  float: left;
+  clear: left;
+  /*max-height: 100vh; /*was 600px; */
+  min-height: 40vh;
+  max-width: 27vw;
+  min-width: 5vw;
+  position: relative;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  text-align: center;
+  flex-basis: auto;
+  font-size: 8.5vh;
+  /* padding: 5px 5px;  */
+  display: block;
+}
+
+.links1 {
+  display: block;
+  text-align: left;
+  font-size: 8vh;
+  max-height: 100vh;
+  /*was 600px; */
+  min-height: 40vh;
+  max-width: 27vw;
+  min-width: 5vw;
+  position: relative;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  margin: .1rem;
+  z-index: 1;
+}
+
+.links1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  flex: auto;
+}
+
+.links1 li {
+  clear: both;
+  float: left;
+  display: block;
+  position: relative;
+  text-align: left;
+  flex: auto;
+}
+
+.links1 li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.links1 li a:hover {
+  background-color: #555;
+  color: white;
+  text-align: left;
+}
+
+.pagecontent {
+  background-color: rgb(80, 0, 180);
+  background-color: rgba(80, 0, 180, 0.7);
+  max-height: 100%;
+  /*was 600px; */
+  min-height: 87.2vh;
+  max-width: 90.5%;
+  min-width: 70%;
+  clear: right;
+  position: relative;
+  margin-left: 1.8vh;
+  margin-top: 1vh;
+  display: inline-block;
+  flex: auto;
+}
+
+.contentborder {
+  background-color: rgb(250, 250, 250);
+  background-color: rgba(250, 250, 250, 0.7);
+  border-radius: 1rem;
+  /* old - height: 70vh; /*was 590px*/
+  /*
+  min-height: 11.5rem;
+  max-width: 57vw; */
+  min-height: 80vh;
+  max-height: 100%;
+  max-width: 99%;
+  min-width: 50%;
+  margin: 3vh .3vw .3vh .3vw;
+  display: block;
+  z-index: 1;
+}
+
+.content {
+  min-height: 98%;
+  max-height: 100%;
+  width: 98%;
+  z-index: 2;
+  display: block;
+}
+
+.contentinner {
+  padding-top: 1vh;
+  padding-left: 1vw;
+  max-height: 100%;
+  min-height: 97%;
+  width: 97%;
+  z-index: 3;
+  position: relative;
+  display: block;
+}
+
+.html,
+.css,
+.jscript,
+.gitio,
+.future {
+  margin-left: .5vw;
+  margin-top: 1.3vh;
+  z-index: 4;
+}
+
+.default {
+  height: 100%;
+  width: 100%;
+  margin: 4vh 1.3vw 1.3vh 1.3vw
+}
+
+.html {
+  height: 100%;
+  width: 100%;
+  margin: 4vh 1.3vw 1.3vh 1.3vw
+}
+
+.css {
+  height: 100%;
+  width: 100%;
+  margin: 4vh 1.3vw 1.3vh 1.3vw;
+}
+
+.jscript {
+  height: 100%;
+  width: 100%;
+  margin: 4vh 1.3vw 1.3vh 1.3vw;
+}
+
+.gitio {
+  height: 100%;
+  width: 100%;
+  margin: 4vh 1.3vw 1.3vh 1.3vw;
+}
+
+.future {
+  height: 100%;
+  width: 100%;
+  margin: 4vh 1.3vw 1.3vh 1.3vw;
+}
+
+footer {
+  background-color: lightblue;
+  background-color: rgba(0, 0, 180, 0.5);
+  float: left;
+  max-height: 100%;
+  min-height: 10vh;
+  max-width: 100%;
+  min-width: 100%;
+  clear: left;
+  margin-top: .3vh;
+  padding-left: .2vw;
+  z-index: 1;
+  text-align: center;
+}
