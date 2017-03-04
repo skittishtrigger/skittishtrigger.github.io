@@ -1,23 +1,25 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
    "http://www.w3.org/TR/html4/loose.dtd">
-<head><title>Test page</title>
+<head>
+  <title>Test page</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link id="size-stylesheet" rel="stylesheet" type="text/css" href="css/small.css">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 </head>
 
-<body>  <!-- id="load" onload="device.js"  removed -->
+<body>
+  <!-- id="load" onload="device.js"  removed -->
   <div class="Bg"></div>
   <main>
     <nav>
       <!--<p>will be a navbar menu across all loaded pages</p>-->
       <div class="topmenu">
         <ul>
-          <li><a href="#">Home</a>
-            <li><a href="#">Projects</a>
-              <li><a href="#">Links</a>
-                <li><a href="#">Future</a>
+          <li><a id="index" href="">Home</a>
+            <li><a id="projects" href="">Projects</a>
+              <li><a id="linkstop" href="">Links</a>
+                <li><a id="futuretop" href="">Future</a>
         </ul>
       </div>
     </nav>
@@ -35,48 +37,63 @@
       <h3>MENU</h3>
       <div class="links1">
         <ul>
-          <li><a id="default" data-toggle="tooltip" title="Back to intro page">Home</a>
-            <li><a id="html" data-toggle="tooltip" title="My Html coding examples">Html</a>
-              <li><a id="css" data-toggle="tooltip" title="My css coding examples">css</a>
-                <li><a id="js" data-toggle="tooltip" title="My Js coding examples">Jscript</a>
-                  <li><a id="github" data-toggle="tooltip" title="My Github.io pages(code)">Git.io</a>
-                    <li><a id="future" data-toggle="tooltip" title="Coming Soon!">future</a>
-                      <li><a id="future2" data-toggle="tooltip" title="Coming Soon!">future2</a>
-                        <li><a id="future3" data-toggle="tooltip" title="Coming Soon!">future3</a>
+        
+          <li><a  id="default"  href="">Home</a>
+            <li><a id="htmpages"  href="">Html</a>
+              <li><a id="css"  href="">css</a>
+                <li><a id="jscript"  href="">Jscript</a>
+                  <li><a id="git.io"  href="">Git.io</a>
+                    <li><a id="future"  href="">future</a>
+                      <li><a id="future2"  href="">future2</a>
+                        <li><a id="future3"  href="">future3</a>
         </ul>
       </div>
     </div>
     <div class="pagecontent">
       <div class="contentborder">
         <div class="content">
-          <div class="defaultcontent" id="defaultcontent"></div>
-            <div class="html">html</div>
-            <div class="css">css</div>
-            <div class="jscript">jscript</div>
-            <div class="gitio">git.io</div>
-            <div class="future">future</div>
-          
+          <div class="home" id="defaultcontent"></div>
+          <div class="home" id="htmpages2"></div>
+          <div class="home" id="css2"></div>
+          <div class="home" id="jscript2"></div>
+          <div class "home" id="gitio2"></div>
+          <div class="home" id="future3"></div>
+
           <!-- content to be determined with js -->
         </div>
       </div>
     </div>
+    </body>
     <footer>
       <h4>footer here</h4>
+       <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
       <!-- will be static across all pages -->
     </footer>
   </main>
 
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <!--  -->   <!--test-->
+  <script type="text/javascript" src="javascript/jquery-1.8.3.js"></script>
+  <!--  -->
+  <!--test-->
 
-  <script>
-    $(function() {
-      $("#defaultcontent").load("https://raw.githubusercontent.com/skittishtrigger/skittishtrigger.github.io/master/pages/default.html");
-    });
-
-  </script>
+ 
   <!--Removed till needed-->
-  <!--<script type="text/javascript" src="javascript/device.js"></script> old resolution management script-->
-</body>
+  <script type="text/javascript" src="javascript/link.js"></script>
 
-<!--</html>-->
+
+</html>
