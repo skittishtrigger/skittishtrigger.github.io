@@ -1,6 +1,10 @@
-$(function() { //Loads default class="content" defaultcontent div.
-  $("#defaultcontent").load("https://raw.githubusercontent.com/skittishtrigger/skittishtrigger.github.io/master/pages/default.html");  
+$(function() {
+  window.onload = $("#defaultcontent").load("https://raw.githubusercontent.com/skittishtrigger/skittishtrigger.github.io/master/pages/default.html");
+  linkId();
 });
+
+
+
 
 //Define variables here:
 var urlName; //This will be first var defined & used to search the array.
@@ -34,11 +38,13 @@ window.onclick = linkId(); //Iniates script on click.
 function linkId() {  
   urlName = document.querySelectorAll("a");
   for (let i = 0; i < urlName.length; i++) {
-    urlName[i].addEventListener("click", function() {
+    urlName[i].addEventListener("click", function(e) {
+        e.stopPropagation();
       urlName = this.id;
       console.log(urlName + " - This is inside loop. After link click");
       confirmUrl();
-      return (urlName = this.id);      
+      return (urlName = this.id);
+    
     });
   }
 }//end of variable linkGrab
@@ -54,12 +60,12 @@ function findUrl(){
   console.log(urlName + " -This confirms urlName value inside of  findUrl()");
   getLink = linkUrls.indexOf('https://raw.githubusercontent.com/skittishtrigger/skittishtrigger.github.io/master/pages/' + urlName + '.html');
   console.log(getLink + " - Should be 0 base index number from string matching the array.");
-  return getLink = linkUrls.indexOf('https://raw.githubusercontent.com/skittishtrigger/skittishtrigger.github.io/master/pages/' + urlName + '.html');
+  return getLink;
   postUrl();
 }
 
 //load page into correct div based on link(The ahrd part commeth//)
 function postUrl(){
-  
-   document.getElementById("#defaultcontent").load.linkUrls[getLink];
+  console.log(getLink + " - This is the postUrls function");
+  document.getElementById("#defaultcontent").load.linkUrls[getLink];
 }
