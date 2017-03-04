@@ -35,6 +35,6 @@ console.log(this.id + "-link clicked");
  console.log(urlName + "-Final check for success");
 
  /* Next function will search array for string match and load that array as url after removing/unloading previous url?*/
- 
+
  // link description https://www.w3schools.com/js/js_function_definition.asp //
  // https://snook.ca/archives/javascript/javascript_pass //
