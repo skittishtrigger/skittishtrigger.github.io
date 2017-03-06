@@ -254,20 +254,20 @@ header {
   text-decoration: none;
   line-height: 1.3;
   }
-  .content h1, h2, h3{
+  * h1, h2, h3{
 	  font-family: 'Love Ya Like A Sister', cursive;
 	  font-effect: 3d;
 	  color: white;
 	  font-size: 4rem;
 	  font-size-adjust: .7;
   }
-  .content p {
+  * p {
 	  font-family: 'Cabin Sketch', cursive;
 	  color: white;
 	  font-size: 2rem
   }
   
-  .footer {
+  .footer2 {
 	  font-family: 'Clicker Script', cursive;
 	  font-family: 'Devonshire', cursive;
 	  font-family: 'Jacques Francois Shadow', cursive;
