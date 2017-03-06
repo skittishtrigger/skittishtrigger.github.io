@@ -257,18 +257,18 @@ header {
   .content h1, h2, h3{
 	  font-family: 'Love Ya Like A Sister', cursive;
 	  font-effect: 3d;
-	  font-color: white;
+	  color: white;
   }
   .content p {
 	  font-family: 'Cabin Sketch', cursive;
-	  font-color: white;
+	  color: white;
   }
   
   .specialText p {
 	  font-family: 'Clicker Script', cursive;
 	  font-family: 'Devonshire', cursive;
 	  font-family: 'Jacques Francois Shadow', cursive;
-	  font-color: white;
+	  color: white;
   }
 
 .html {
