@@ -99,7 +99,30 @@ nav {
   color: white;
 }
 
-header {
+.mainBorder{
+  border-style: groove; 
+  border-color: rgb(111, 75, 0); 
+  border-width: 2.5rem; 
+  ox-shadow: inset 0 -1px 0 0 #000, inset 0 1px 0 0 #000, 0 1px 0 0 #000, 0 -1px 0 0 #000;
+  border-radius:  1rem;
+  max-height: 27vh;
+  min-height: 20vh;
+  min-width: 100%;
+   display: block;
+  overflow: hidden;
+  position: relative;
+  align-content: center;  
+  margin-bottom: 3vh;
+  margin-top: 14vh;
+  top: 40vh;
+  text-align: center;
+  font-size: 4vh;
+  line-height: .3vh;
+  z-index: 5;
+  order: 1;
+}
+
+.headerMain {
 	background-image: url("../resources/images/title.png");/*
   background-color: rgb(0, 0, 180);
   background-color: rgba(0, 0, 180, 0.5);*/
