@@ -193,8 +193,9 @@ header {
 }
 
 .pagecontent {
-  background-color: rgb(80, 0, 180);
-  background-color: rgba(80, 0, 180, 0.7);
+	background-image: url("../resources/images/woodframe.png");
+/*  background-color: rgb(80, 0, 180);
+  background-color: rgba(80, 0, 180, 0.7);*/
   border-radius:  1rem;
   max-height: 100%;
   min-height: 87.2vh;
