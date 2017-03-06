@@ -118,7 +118,7 @@ header {
 }
 
 .logo {
-  background-image: url("resources/images/UDGDhUT.png");
+  background-image: url("//resources/images/UDGDhUT.png");/*changed pathing*/
   background-size: contain;
   background-repeat: no-repeat;
   height: 10vh;
@@ -206,6 +206,7 @@ header {
 }
 
 .contentborder {
+	 background-image: url("//resources/images/blueChalkBoard.jpg");/*changed pathing*/
   background-color: rgb(250, 250, 250);
   background-color: rgba(250, 250, 250, 0.7);
   border-radius: 1rem;
