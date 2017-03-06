@@ -1,5 +1,5 @@
 /*changed body to Bg*/
-
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch:700|Clicker+Script|Devonshire|Jacques+Francois+Shadow|Love+Ya+Like+A+Sister');
 .Bg {
   position: fixed;
   top: 0;
@@ -255,15 +255,19 @@ header {
   }
   .content h1, h2, h3{
 	  font-family: 'Love Ya Like A Sister', cursive;
+	  font-effect: 3d;
+	  font-color: white;
   }
   .content p {
 	  font-family: 'Cabin Sketch', cursive;
+	  font-color: white;
   }
   
   .specialText p {
 	  font-family: 'Clicker Script', cursive;
 	  font-family: 'Devonshire', cursive;
 	  font-family: 'Jacques Francois Shadow', cursive;
+	  font-color: white;
   }
 
 .html {
