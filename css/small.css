@@ -221,7 +221,7 @@ header {
   max-height: 100%;
   max-width: 100%;
   min-width: 50%;
-  margin: .1vh .1vw .1vh .1vw;
+  margin: .01vh .01vw .01vh .01vw;
   display: block;
   z-index: 1;
 }
