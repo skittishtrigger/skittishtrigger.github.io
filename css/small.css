@@ -118,7 +118,7 @@ header {
 }
 
 .logo {
-  background-image: url("//resources/images/UDGDhUT.png");/*changed pathing*/
+  background-image: url("../resources/images/UDGDhUT.png");
   background-size: contain;
   background-repeat: no-repeat;
   height: 10vh;
