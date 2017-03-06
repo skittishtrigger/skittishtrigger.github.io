@@ -15,18 +15,18 @@
   /* background-image: url('http://i.imgur.com/lzxLAvh.jpg');*/
   /*background-size: auto auto; /*was 100vh auto*/
   filter: grayscale(40%);
-  background: #4d0000;
-  /* For browsers that do not support gradients */
+  /*background: #4d0000;
+  /* For browsers that do not support gradients *//*
   background: -webkit-gradient(left, rgb(77, 0, 0), rgb(77, 0, 0));
   background: -webkit-gradient(right, rgb(77, 0, 8), rgb(77, 0, 8));
   background: -o-linear-gradient(left, rgb(77, 0, 0), rgb(77, 0, 0));
   background: -o-linear-gradient(right, rgb(77, 0, 8), rgb(77, 0, 0));
   background: -webkit-linear-gradient(left, rgba(77, 0, 0, 0), rgba(77, 0, 0, 8));
-  /*Safari 5.1-6*/
+  /*Safari 5.1-6*//*
   background: -o-linear-gradient(right, rgba(77, 0, 0, 0), rgba(77, 0, 0, 8));
-  /*Opera 11.1-12*/
+  /*Opera 11.1-12*//*
   background: -moz-linear-gradient(right, rgba(77, 0, 0, 0), rgba(77, 0, 0, 8));
-  /*Fx 3.6-15*/
+  /*Fx 3.6-15*//*
   background: linear-gradient(to right, rgba(77, 0, 0, 0), rgba(77, 0, 0, 8));
   /*Standard*/
 }
