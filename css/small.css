@@ -103,8 +103,8 @@ header {
 	background-image: url("../resources/images/title.png");/*
   background-color: rgb(0, 0, 180);
   background-color: rgba(0, 0, 180, 0.5);*/
-  border-top-right-radius: 50px;
-  border-top-left-radius: 50px;
+  /*border-top-right-radius: 50px;
+  border-top-left-radius: 50px;*/
   max-height: 27vh;
   min-height: 20vh;
   min-width: 100%;
@@ -120,6 +120,15 @@ header {
   order: 1;
 }
 
+.headMain {
+font-family: "Times New Roman", Times, serif;
+color: Blue;
+}
+
+.headSub {
+	font-family: "Times New Roman", Times, serif;
+	color: red;
+}
 .logo {
   background-image: url("../resources/images/UDGDhUT.png");
   background-size: contain;
