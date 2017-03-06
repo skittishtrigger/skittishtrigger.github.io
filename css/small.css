@@ -100,8 +100,9 @@ nav {
 }
 
 header {
+	background-image: url("../resources/images/title.png");/*
   background-color: rgb(0, 0, 180);
-  background-color: rgba(0, 0, 180, 0.5);
+  background-color: rgba(0, 0, 180, 0.5);*/
   border-top-right-radius: 50px;
   border-top-left-radius: 50px;
   max-height: 27vh;
@@ -221,7 +222,7 @@ header {
   max-height: 100%;
   max-width: 100%;
   min-width: 50%;
-  margin: .01vh .01vw .01vh .01vw;
+  margin: .001vh .001vw .001vh .001vw;
   display: block;
   z-index: 1;
 }
