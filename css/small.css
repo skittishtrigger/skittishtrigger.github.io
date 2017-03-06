@@ -253,6 +253,18 @@ header {
   text-decoration: none;
   line-height: 1.3;
   }
+  .defaultcontent h1, h2, h3{
+	  font-family: 'Love Ya Like A Sister', cursive;
+  }
+  .defaultcontent p {
+	  font-family: 'Cabin Sketch', cursive;
+  }
+  
+  .specialText p {
+	  font-family: 'Clicker Script', cursive;
+	  font-family: 'Devonshire', cursive;
+	  font-family: 'Jacques Francois Shadow', cursive;
+  }
 
 .html {
   height: 100%;
