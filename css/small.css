@@ -200,13 +200,14 @@ color: Blue;
   background-repeat: no-repeat;
   height: 10vh;
   width: 20vh;
-  position: absolute;
+  position: relative;
   margin-top: 31.5vh;
   margin-left: 78.2vw;
+    top: 46vh;
   clear: left;
   z-index: 7;
   float: right;
- display: inherit;
+ display: block;
 }
 
 .pageLeftMenu {
